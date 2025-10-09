@@ -2,6 +2,8 @@ import './App.css';
 import { AlterarTexto } from './components/AlterarTexto.tsx';
 import { Contador } from './components/Contador.tsx';
 import { FormularioSimples } from './components/FormularioSimples.tsx';
+import { ListaNomes } from './components/ListaNomes.tsx';
+import { ListaProdutos } from './components/ListaProdutos.tsx';
 import { ListaTarefas } from './components/ListaTarefas.tsx';
 import Mensagem from './components/Mensagem.tsx';
 import { MostrarOcultar } from './components/MostrarOcultar.tsx';
@@ -21,7 +23,9 @@ function App() {
       {/* <MostrarOcultar></MostrarOcultar> */}
       {/* <PainelControle></PainelControle> */}
       {/* <ListaTarefas></ListaTarefas> */}
-      <FormularioSimples></FormularioSimples>
+      {/* <FormularioSimples></FormularioSimples> */}
+      {/* <ListaNomes></ListaNomes> */}
+      <ListaProdutos></ListaProdutos>
     </div>
   );
 }
